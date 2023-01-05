@@ -11,6 +11,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
+    padding-top: 50px;
 }
 nav ul{
     display: flex;
@@ -25,8 +26,6 @@ nav li{
 }
 .btn-primary{
     color: white;
-    font-weight: 700px;
-    font-size: 20px;
     background-color: orange;
     height: 64px;
     border: none;
@@ -57,10 +56,12 @@ nav li{
     margin-bottom: 30px;
 }
 .header{
-    background-color: antiquewhite;
-    background-image: url(../images/header_bg.png) url(../images/developer.png);
+    background-color: #FFF8F3;
+    width: 1920px;
+    height: 800px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, bottom left;
 }
 /* main section */
 main{
@@ -71,7 +72,7 @@ main{
 .about-me{
     text-align: center;
     margin-top: 130px;
-    background-color: antiquewhite;
+    background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
@@ -101,4 +102,50 @@ main{
     font-weight: 700px;
     color: #474747;
     margin: 0 10px;
+}
+
+/* job description style */
+.job-description{
+    margin-top: 130px;
+}
+.job-description .section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title-description{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align: center;
+    color: #757575;
+    margin: 40px 100px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    justify-content: space-around;
+    
+}
+
+.resume .section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+    color: #181818;
+    margin: 70px 0px;
 }
