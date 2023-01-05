@@ -9,8 +9,6 @@
 }
 nav{
     display: flex;
-    font-weight: 200;
-    font-size: 20;
     justify-content: space-between;
     padding: 50px 200px;
 }
@@ -27,6 +25,8 @@ nav li{
 }
 .btn-primary{
     color: white;
+    font-size: 25px;
+    font-weight: 400px;
     background-color: orange;
     height: 64px;
     border: none;
